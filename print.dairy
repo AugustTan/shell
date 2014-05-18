@@ -1,0 +1,5 @@
+/Dairy/{
+name=$1
+price=$3
+print name,price
+}
