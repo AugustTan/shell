@@ -29,5 +29,5 @@ echo "num_denominations"
 
 echo -n "${denomination[$((RANDOM%num_denominations))]} of "
 echo ${suite[$((RANDOM%num_suites))]}
-
+echo "hello"
 exit 0

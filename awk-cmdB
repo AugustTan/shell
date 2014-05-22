@@ -1,0 +1,7 @@
+BEGIN{
+FS=":"
+OFS="+"
+}
+{
+print "Login" $1, "GID", $4,$7
+}

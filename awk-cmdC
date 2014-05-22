@@ -1,0 +1,8 @@
+BEGIN {
+FS=":"
+OFS="+"
+ORS="--------"
+}
+{
+print "NR is " NR,$1,$2
+}

@@ -1,0 +1,11 @@
+{
+name = $1
+type = $2
+price = $3
+quantity = $4
+taxable = $5
+change = 3
+saleprice = price / change
+print name, type, price, saleprice, quantity, taxable
+}
+
